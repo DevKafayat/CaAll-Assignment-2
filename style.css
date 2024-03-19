@@ -1,0 +1,315 @@
+@import url(utility.css);
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+
+body {
+    height: 100vh;
+    /* width: 100vw; */
+    margin: 0;
+    padding: 0;
+}
+
+*{
+    box-sizing: border-box;
+    font-family: "DM Sans", sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+li {
+    list-style-type: none;
+}
+
+details > summary {
+    list-style-type: none;
+}
+
+section {
+    width: 100%;
+    height: 100%;
+}
+
+aside {
+    width: 20rem;
+    height: 100%;
+    background-color: #fff;
+    padding: 0 1rem 1rem 1rem;
+}
+
+.aside-logo {
+    width: 5rem;
+    height: 1.5rem;
+}
+
+nav {
+    width: 100%;
+    height: 9.85vh;
+}
+
+.profile {
+    width: 12rem;
+    height: 11rem;
+    background-color: #fef8ec;
+    line-height: 0.07rem;
+}
+
+.profile img {
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+.expand-icon {
+    width: 1.2rem;
+    height: 1.2rem;
+    transition: .5s;
+}
+
+main {
+    width: 80rem;
+    height: 100%;
+    padding: 0 5rem 0 5rem;
+    background-color: #fef8ec;
+}
+
+main input,
+footer input {
+    border: none;
+    outline: none;
+    width: 22rem;
+    height: 2.5rem;
+    padding-left: 1rem;
+    border-radius: 0 0.63rem 0.63rem 0;
+}
+
+footer input {
+    background-color: #fef8ec;
+}
+
+::placeholder {
+    color: #091B3D;
+    font-size: 0.7rem;
+    font-weight: 400;
+}
+
+main .lens,
+footer .lens {
+    background-color: white;
+    height: 2.5rem;
+    width: 1.5rem;
+    padding-left: 0.5rem;
+    border-radius: 0.63rem 0 0 0.63rem;
+}
+
+.search-div:hover {
+    border: 2px solid blue;
+}
+
+footer .lens {
+    background-color: #fef8ec;
+}
+
+main .arrow-bottom {
+    height: 1rem;
+    width: 1rem;
+    z-index: 1;
+    position: relative;
+    right: 2rem;
+}
+
+.message, 
+.notification,
+.user,
+.friend-lens {
+    width: 2rem;
+    height: 2rem;
+    background-color: #f9e6c6;
+    padding: 0.5rem;
+    border-radius: 0.43rem;
+}
+
+.friend-lens {
+    background-color: #f6dbaa;
+    width: 1.8rem;
+    height: 1.8rem;
+}
+
+.sort {
+    background-color: #f6dbaa;
+    height: 2.2rem;
+    width: 10rem;
+    justify-content: center;
+}
+
+.friends {
+    font-weight: 700;
+} 
+
+.socials {
+    width: 100%;
+    height: 85.5vh;
+}
+
+.friend-requests {
+    width: 36rem;
+    height: 19.5rem;
+    background-color:  #f9e6c6;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+}
+
+.request-card,
+.list-card-one,
+.list-card-two {
+    width: 14rem;
+    height: 7rem;
+    background-color: white;
+    border-radius: 0.9rem;
+    padding: 0 0.6rem 0 0.6rem;
+}
+
+.list-card-three,
+.list-card-four {
+    width: 14rem;
+    height: 4.7rem;
+    background-color: white;
+    border-radius: 0.9rem 0.9rem 0 0;
+    padding: 0 0.6rem 0 0.6rem;
+}
+
+.request-card h4,
+.list-card h4,
+.contacts-list h4,
+details h4 {
+    font-size: 0.75rem;
+}
+
+.request-card span,
+.list-card span {
+    font-size: 0.7rem;
+}
+
+.friend-lists {
+    width: 36rem;
+    height: 16.5rem;
+    background-color: #f9e6c6;
+    border-radius: 0.9rem 0.9rem 0 0;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+}
+
+.btn .confirm,
+.btn .delete,
+.btn-2 .friends {
+    border: none;
+    outline: none;
+    background-color: blue;
+    width: 5.7rem;
+    height: 2.3rem;
+    color: white;
+    font-weight: 600;
+    border-radius: 0.6rem;
+}
+
+.btn .delete,
+.btn-2 .friends {
+    background-color: transparent;
+    color: blue;
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.3);
+}
+
+.btn-2 .friends {
+    width: 100%;
+}
+
+.contacts-list {
+    width: 26rem;
+    height: 100%;
+    background-color: white;
+    border-radius: 0.9rem 0.9rem 0 0;
+    padding: 1rem 4rem 1rem 4rem;
+}
+
+.contacts-list .num,
+details .num {
+    background-color: blue;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    font-size: 0.6rem;
+    border-radius: 0.3rem;
+    width: 1rem;
+    height: 1rem;
+    padding: 0.2rem;
+}
+.contacts-list .dot,
+details .dot {
+    width: 0.4rem;
+    height: 0.4rem;
+}
+
+.contacts-list p {
+    color: #c4c3c3;
+    font-size: 0.6rem;
+}
+
+.contacts img {
+    width: 1.3rem;
+    height: 1.3rem;
+}
+
+.groups img,
+details img {
+    width: 0.9rem;
+    height: 0.9rem;
+}
+
+.groups .top-img {
+    margin-left: -1.3rem;
+    margin-bottom: -0.45rem;
+}
+
+details .top-img {
+    margin-left: -1.4rem;
+    margin-bottom: -0.65rem;
+}
+
+.shortcut-project {
+    width: 100%;
+    height: 2.5rem;
+    padding: 1rem;
+    background-color: #fef8ec;
+    border-radius: 0.63rem;
+}
+
+
+
+
+/* /responsiveness starts here/ */
+
+/* @media (max-width: 768px) {
+        .aside-menu,
+        .profile {
+            display: none;
+        }
+        .aside-logo {
+        display: flex;
+        height: ;
+    }
+    aside {
+    display: none;
+    }
+
+    .request-card-one{
+        display: flex;
+        flex-direction: column;
+        gap: ;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+    }
+} */
