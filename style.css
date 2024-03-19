@@ -164,7 +164,7 @@ main .arrow-bottom {
 .request-card,
 .list-card-one,
 .list-card-two {
-    width: 14rem;
+    width: 16.5rem;
     height: 7rem;
     background-color: white;
     border-radius: 0.9rem;
@@ -173,7 +173,7 @@ main .arrow-bottom {
 
 .list-card-three,
 .list-card-four {
-    width: 14rem;
+    width: 16.5rem;
     height: 4.7rem;
     background-color: white;
     border-radius: 0.9rem 0.9rem 0 0;
@@ -206,7 +206,7 @@ details h4 {
     border: none;
     outline: none;
     background-color: blue;
-    width: 5.7rem;
+    width: 7.3rem;
     height: 2.3rem;
     color: white;
     font-weight: 600;
